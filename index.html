@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="heading">
+        <h1>BMI CALCULATOR</h1>
+        <h2>(know about your body)</h2>
+        </div>
+        <div class="content">
+            <div class="male">
+                <img src="./images/maleimg.png">
+                <div class="btns">
+                    <button id="male_sts">--male--</button>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="cal">
+                <h1>KNOW YOUR BMI</h1>
+                <div class="cards">
+                    <div class="card">
+                        <h4>Height <span>CM</span></h4>
+                        <input id="height" type="number" value="120" min="80" max="400">
+                    </div>
+                    <div class="card">
+                        <h4>Weight <span>KG</span></h4>
+                        <input id="weight" type="number" value="40" min="20" max="200">
+                    </div>
+
+                    <div class="btns">
+                        <!-- <button id="male_sts">Normal</button> -->
+                        <button id="check_btn">Check Score</button>
+                        <!-- <button id="female_sts">Normal</button> -->
+                    </div>
+
+                    <label id="score">Score</label>
+                </div>
+            </div>
+
+
+
+            <div class="female">
+                <img src="./images/femaleimg.png">
+                <div class="btns">
+                    <button id="female_sts">--female--</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
